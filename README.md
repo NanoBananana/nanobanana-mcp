@@ -83,3 +83,5 @@ Set `NANOBANANA_API_KEY` in the environment that starts Kiro, restart Kiro, and 
 | `nano_list_generations` | Find recent jobs.                       |
 
 [Privacy Policy](https://nanobananana.com/privacy) · [Support](mailto:hi@nanobananana.com)
+
+See [Cline installation](llms-install.md) for Streamable HTTP setup and a read-only model-list check.
