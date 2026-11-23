@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.nanobananana/nanobanana",
+  "title": "Nanobananana MCP",
+  "description": "Generate and edit images and generate videos with Nanobananana's remote MCP server.",
+  "websiteUrl": "https://nanobananana.com/zh",
+  "version": "0.1.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nanobananana.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Enter Bearer followed by your Nanobananana API key.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

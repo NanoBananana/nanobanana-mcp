@@ -1,0 +1,16 @@
+{
+  "name": "nanobananana-creative",
+  "version": "1.0.0",
+  "description": "Generate and edit images and generate videos with Nanobananana.",
+  "author": {
+    "name": "Nanobananana"
+  },
+  "homepage": "https://nanobananana.com/zh/models/image",
+  "repository": "https://github.com/NanoBananana/nanobanana-mcp",
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "video",
+    "image-editing"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "nanobananana",
+  "owner": {
+    "name": "Nanobananana"
+  },
+  "description": "Generate and edit images and generate videos with Nanobananana.",
+  "plugins": [
+    {
+      "name": "nanobananana-creative",
+      "source": "./",
+      "description": "Generate and edit images and generate videos with Nanobananana.",
+      "homepage": "https://nanobananana.com/zh/models/image",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "nanobananana-creative",
+  "version": "1.0.0",
+  "description": "Generate and edit images and generate videos with Nanobananana.",
+  "author": {
+    "name": "Nanobananana"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Nanobananana Creative",
+    "shortDescription": "Generate and edit images and videos",
+    "longDescription": "Generate and edit images and generate videos with Nanobananana.",
+    "developerName": "Nanobananana",
+    "category": "Design",
+    "websiteURL": "https://nanobananana.com/zh/models/image"
+  }
+}
