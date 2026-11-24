@@ -68,6 +68,16 @@ cline mcp add nanobananana --transport streamable-http https://nanobananana.com/
 
 Set `NANOBANANA_API_KEY` in the environment that starts Kiro, restart Kiro, and open [Add Nanobananana to Kiro](https://kiro.dev/launch/mcp/add?name=nanobananana&config=%7B%22url%22%3A%22https%3A%2F%2Fnanobananana.com%2Fapi%2Fmcp%22%2C%22headers%22%3A%7B%22Authorization%22%3A%22Bearer%20%24%7BNANOBANANA_API_KEY%7D%22%7D%7D).
 
+### DeepSeek Harness
+
+Install the [`@nanobananana/dsh-plugin`](dsh-plugin/) bundle plugin to add the Nanobananana remote MCP server to a DSH profile:
+
+```sh
+dsh plugin --profile tui add @nanobananana/dsh-plugin
+```
+
+See [`dsh-plugin/`](dsh-plugin/) for configuration and details.
+
 ## Tools
 
 | Tool                    | Purpose                                 |

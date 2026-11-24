@@ -1,0 +1,12 @@
+- insert:
+    - id: mcp-nanobananana
+      name: "@deepseek-ai/dsh-mcp-client"
+      inject: [credentials]
+      config:
+        serverName: nanobananana
+        transport: streamable-http
+        url: https://nanobananana.com/api/mcp
+        expandTemplates: true
+        headers:
+          Authorization: "Bearer ${credential:NANOBANANA_API_KEY}"
+        startupTimeoutMs: 10000
